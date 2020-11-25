@@ -17,7 +17,7 @@
             "index": "apps/search/src/index.html",
             "main": "apps/search/src/main.ts",
             "polyfills": "apps/search/src/polyfills.ts",
-            "tsConfig": "apps/search/tsconfig.app.json",
+            "tsconfig": "apps/search/tsconfig.app.json",
             "aot": true,
             "assets": [
               "apps/search/src/favicon.ico",
@@ -87,7 +87,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
+            "tsconfig": [
               "apps/search/tsconfig.app.json",
               "apps/search/tsconfig.spec.json"
             ],
@@ -113,7 +113,7 @@
             "index": "webcomponents/gn-search-input/src/index.html",
             "main": "webcomponents/gn-search-input/src/main.ts",
             "polyfills": "webcomponents/gn-search-input/src/polyfills.ts",
-            "tsConfig": "webcomponents/gn-search-input/tsconfig.app.json",
+            "tsconfig": "webcomponents/gn-search-input/tsconfig.app.json",
             "aot": true,
             "assets": [
               "webcomponents/gn-search-input/src/assets"
@@ -175,7 +175,7 @@
             "index": "webcomponents/gn-aggregated-records/src/index.html",
             "main": "webcomponents/gn-aggregated-records/src/main.ts",
             "polyfills": "webcomponents/gn-aggregated-records/src/polyfills.ts",
-            "tsConfig": "webcomponents/gn-aggregated-records/tsconfig.app.json",
+            "tsconfig": "webcomponents/gn-aggregated-records/tsconfig.app.json",
             "aot": true,
             "assets": [
               "webcomponents/gn-aggregated-records/src/assets"
@@ -237,7 +237,7 @@
             "index": "webcomponents/gn-results-list/src/index.html",
             "main": "webcomponents/gn-results-list/src/main.ts",
             "polyfills": "webcomponents/gn-results-list/src/polyfills.ts",
-            "tsConfig": "webcomponents/gn-results-list/tsconfig.app.json",
+            "tsconfig": "webcomponents/gn-results-list/tsconfig.app.json",
             "aot": true,
             "assets": [
               "webcomponents/gn-results-list/src/assets"
@@ -373,7 +373,7 @@
             "index": "ssr/formatter/src/index.html",
             "main": "ssr/formatter/src/main.ts",
             "polyfills": "ssr/formatter/src/polyfills.ts",
-            "tsConfig": "ssr/formatter/tsconfig.app.json",
+            "tsconfig": "ssr/formatter/tsconfig.app.json",
             "aot": true,
             "assets": [
               "ssr/formatter/src/favicon.ico",
@@ -437,7 +437,7 @@
           "options": {
             "outputPath": "dist/ssr-formatter/server",
             "main": "ssr/formatter/server.ts",
-            "tsConfig": "ssr/formatter/tsconfig.server.json"
+            "tsconfig": "ssr/formatter/tsconfig.server.json"
           },
           "configurations": {
             "production": {
@@ -537,7 +537,7 @@
             "index": "apps/datafeeder/src/index.html",
             "main": "apps/datafeeder/src/main.ts",
             "polyfills": "apps/datafeeder/src/polyfills.ts",
-            "tsConfig": "apps/datafeeder/tsconfig.app.json",
+            "tsconfig": "apps/datafeeder/tsconfig.app.json",
             "aot": true,
             "assets": [
               "apps/datafeeder/src/favicon.ico",
@@ -607,7 +607,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
+            "tsconfig": [
               "apps/datafeeder/tsconfig.app.json",
               "apps/datafeeder/tsconfig.spec.json"
             ],
