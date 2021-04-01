@@ -73,6 +73,8 @@ jobs:
         run: npm run build:storybook
       - name: Build webcomponents in production mode and demo pages
         run: npm run build:demo
+      - name: Build poc-visu
+        run: ng build poc-visu --prod
 
       - run: echo "::set-env name=BRANCH_NAME::${GITHUB_HEAD_REF:-master}"
 
